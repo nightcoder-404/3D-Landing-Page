@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D - Illustration</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <span class="threeD">3D Landing</span>
+    <div class="container">
+        <div class="navbar">
+            <a href="#" class="logo">nightCoder</a>
+            <ul class="list">
+                <li class="liquid squzee"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="title">
+                <p>Building Your <br><span>Digital World</span></p>
+            </div>
+            <div class="text">
+                <p>We are a team that creates iconic disgital landscape for startup and SMEs.<br>Be it a website, web
+                    app, mobile app, or UI/UX design, we can build it for<br>you with excellence.</p>
+            </div>
+            <div class="button-box btn">
+                <a href="#" class="btn">Learn More <i class="icon fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <img src="bg2.png" alt="background" class="right">
+    </div>
+
+    </div>
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".right"), {
+            max: 15,
+            speed: 500,
+            glare: true,
+            "max-glare": 0.5
+        });
+    </script>
+</body>
+
+</html>

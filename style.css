@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+    width: 100%; background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background:#8d948e;
+}
+span.threeD{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+.container{
+    position: relative;
+    width: 992px;
+    height: 90vh;
+    padding: 30px 45px;
+    background:#111111;
+    box-shadow: 0 8px 32px 0 rgba(31, 38,135, 0.37);
+    backdrop-filter: blur(5.0px);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo{
+    font-weight: 600;
+    color:  #FCF8F8;
+}
+.navbar .list{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.navbar .list li{
+    list-style-type: none;
+    position: relative;
+}
+.navbar .list li a{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color:  #FCF8F8;
+    padding: .5rem 1rem;
+    transition: all 1s;
+    margin: .5rem;
+}
+.navbar .list li a:hover{
+    color: #dc143c;
+    background-color: #fff;
+    border-radius: 20px;
+}
+content{
+    position: relative;
+    padding: 40px 0;
+    font-family: 'Crimson Text', serif;
+}
+.content .title{
+    position: relative;
+}
+.content .title p{
+    font-family:  'Poppins', sans-serif;
+    color: #FCF8F8;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 7rem;
+}
+.content .title p.light{
+    font-weight:normal;
+    font-size: .7em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.content .text{
+    padding: 30px 30% 30px 0;
+}
+.content .text p{
+    margin-top: -1rem;
+    color:  #FCF8F8;
+    font-weight: lighter;
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+span{
+    color:#ea8c38;
+}
+.content .button-box{
+    position: relative;
+}
+.content .button-box a {
+   background-image: linear-gradient(to right, #000000 0%, #39353b  51%, #000000  100%);
+   padding: 15px 30px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 5px #eee;
+   border-radius: 10px;
+   display: inline-block;
+ }
+.content .button-box a:hover{
+   background-position: right center; 
+   color: #fff;
+}
+.right{
+    position: absolute;
+    right: 10px;
+    width: 350px;
+    bottom: 150px;
+}
+
